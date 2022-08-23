@@ -1,0 +1,183 @@
+.formWrapper {
+    font-size: calc(10px + 1vmin);
+    color: #F8F8F2;
+    background-color: #2f70778c;
+    margin: 0 25vw;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+.formTitle {
+    color: #F8F8F2;
+}
+
+.formContainer {
+    border-radius: 5px;
+    background-color: #3d968594;
+    padding: 20px;
+
+}
+
+.formText {
+  font-size: calc(10px + 1vmin);
+
+    color: #F8F8F2;
+    background-color: #3d968594;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+.formLabel {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+
+  .myTextarea {
+    height: 150px;
+  }
+  
+  .formBtn {
+    font-size: 20px;
+    background-color: #2f7077;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .formBtn:hover {
+    box-shadow: 0px 0px 8px #89ccc094;
+  }
+  
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-50 {
+    width: 50%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .fLeft {
+    float: left;
+  }
+
+  .fRight {
+    float: right;
+    text-align: right;
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .durationLable {
+    float: center;
+  }
+
+  .durationSlide {
+    float: left;
+    width: 60%;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, formBtn {
+      width: 100%;
+      margin-top: 0;
+    }
+    .formWrapper {
+        margin: 0 5vw;
+    }
+  }
+
+  .backBtn {
+    font-weight: bold;    
+    line-height: 45px;
+    font-size: 22px;
+    width: 200px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: right;
+    color: #F8F8F2;
+    background: #2f7077;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+
+}
+
+
+
+.cardBoxCountries{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  justify-content: center;
+
+}
+.cardLiCountries {
+display: flex;
+padding: 5px;
+
+}
+
+.cardDetailsCountries {
+  box-shadow: 0px 0px 8px #324042;
+  transition: 0.3s;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction:row;
+  overflow: hidden;
+  background-color: #3d968594;
+  font-size: 17px;
+
+}
+
+.cardDetailsCountries:hover {
+  box-shadow: 0px 1px 6px #97f1f1;
+}
+
+.countryPill{
+  margin: 3px;
+}
+
+.countryPillBtn{
+  text-align: center;
+  font-weight: bold;
+  color: #F8F8F2;
+  background-color: #2f7077;
+  border: none;
+  border-radius: 4px;
+  margin: 3px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #F8F8F2;
+  opacity: 1; /* Firefox */
+}

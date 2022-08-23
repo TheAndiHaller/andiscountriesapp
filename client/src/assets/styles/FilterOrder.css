@@ -1,0 +1,76 @@
+  .dropdown {
+    width: 300px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 0;
+    outline: none;
+     box-shadow: 0 0 2px #9cbed1;   /* 84a3ed */
+    transition: all .5s ease;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F8F8F2;
+    height: 100%;
+    text-align: center;
+    margin: 10px;
+    background-color: transparent;
+  }
+
+  .order {
+    width: 120px;
+  }
+
+  .filter {
+    width: 200px;
+  }
+
+  .newActivity {
+    color: #F8F8F2;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #F8F8F2;
+    border-radius: 4px;
+    resize: vertical; 
+}
+
+  .opt {
+    background: #40838b;
+    font-weight: 600;
+  }
+
+  .opt:hover {
+    color: #ababab;
+    font-weight: 600;
+  }
+
+  .orderTitle {
+    color: #F8F8F2;
+    font-weight: bold;    
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.activeFilter {
+  box-shadow: 0 0 8px #F8F8F2;
+  width: 65px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #549daa;
+  text-align: center;
+  border: 1px solid #203e4f;
+  border-radius: 4px;
+  background-color: #549daa; 
+}
+
+.normalFilter{
+  box-shadow:none;
+  width: 65px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #203e4f;
+  text-align: center;
+  border: 1px solid #203e4f;
+  border-radius: 4px;
+  background-color: transparent; 
+}

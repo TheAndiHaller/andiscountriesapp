@@ -1,0 +1,132 @@
+.detailWrapper {
+    font-size: calc(10px + 1vmin);
+    color: #F8F8F2;
+    background-color: #2f70778c;
+    margin: 0 25vw;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+.detailName {
+  color: #F8F8F2;
+  padding-top: 15%;
+  font-size: calc(30px + 1vmin);
+}
+
+.detailContainer {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #3d968594;
+
+}
+
+.detailImage {
+    box-shadow: 0 2px 2px 0 #2f3232ce;
+    border-radius: 10px 10px 0 0;
+    vertical-align: middle;
+    width:100%;
+    display: inline;
+}
+
+.textDetails {
+  text-align: left;
+}
+
+  
+  .col-25 {
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-50 {
+    width: 50%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    width: 75%;
+    margin-top: 6px;
+  }
+  .col-100 {
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  .fLeft {
+    float: left;
+  }
+
+  .fRight {
+    float: right;
+    text-align: right;
+}
+
+.fCenter {
+    text-align: center;
+
+}
+  
+.cardBoxDetails{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    justify-content: center;
+
+}
+.cardLiDetails {
+  display: flex;
+  padding: 10px;
+ 
+  }
+
+.cardDetails {
+    box-shadow: 0px 0px 8px #324042;
+    transition: 0.3s;
+    width:250px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #3d968594;
+
+  }
+
+  .containerDetails {
+    align-items: center;
+    vertical-align: middle;
+  }
+  
+  .cardDetails:hover {
+    box-shadow: 0px 2px 16px #97f1f1;
+  }
+
+
+  .navLink {
+    font-weight: bold;    
+    line-height: 45px;
+    font-size: 22px;
+    width: 200px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: right;
+    color: #F8F8F2;
+    background: #2f7077;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+
+}
+
+.navLink:hover {
+    box-shadow: 0px 0px 8px #F8F8F2;
+} 
+
+.air {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+
+.cardBox{
+    padding: 0 16vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+
+    justify-content: center;
+
+}
+
+.loadingCountries {
+  color: #F8F8F2;
+
+}
+
+.paginationContainer {
+  padding: 20px;
+  display: inline-block;
+}
+
+.paginationBtn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: #F8F8F2;
+  float: center;
+  padding: 8px 16px;
+  margin: 1vw;
+  border-radius: 3px;
+  transition: background-color .3s;
+}
+
+.paginationBtn.active {
+  background-color: #2f7077;
+  color: #F8F8F2;
+}
+
+.paginationBtn:hover:not(.active) {background-color: #2f7077be;}
+
+.dots {
+  color: #F8F8F2;
+  font-weight:900;
+}
